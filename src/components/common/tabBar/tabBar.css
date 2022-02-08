@@ -1,0 +1,52 @@
+.tab-options
+{
+    box-shadow: var(--border-white) 0px 0.5px 0px;
+    margin-top: 15px;
+}
+
+.options-wrapper
+{
+    width: 961px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 0px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.tab-item
+{
+
+    padding: 12px 20px 12px 20px;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tab-name
+{
+    font-size: 15px;
+    color: var(--inactive-text);
+}
+
+.tab-image-container
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.tab-image
+{
+    height: 35px;
+    width: 35px;
+}
+
+
+.active-tab
+{
+    border-bottom: 3px solid var(--zomato-red);
+}

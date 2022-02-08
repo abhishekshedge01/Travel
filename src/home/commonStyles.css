@@ -1,0 +1,22 @@
+.max-width
+{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.absolute-center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cur-po
+{
+    cursor: pointer;
+}
+
+.bold{
+    font-size: 25px;
+    margin-top: 100px;
+}

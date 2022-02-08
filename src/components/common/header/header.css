@@ -1,0 +1,94 @@
+.header
+{
+    align-items: center;
+    display: flex;
+    height: 60px;
+}
+
+.lead-header
+{
+    background-color: #002c50;
+    color: white;
+}
+
+.logo
+{
+    width: 14%;
+}
+
+.header-logo
+{
+    height: 30px;
+    width: 30px;
+    margin-right: 7px;
+}
+
+.logo-name
+{
+    font-size: 24px;
+    margin-left: 5px;
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-right
+{
+    display: flex;
+    align-items: center;
+    width: 1090px;
+    justify-content: space-between;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    font-weight: 600px;
+    background-color: #002c57;
+}
+
+
+.item
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 10px 12px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.account
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 10px;
+}
+
+.account-info
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.account-image
+{
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+}
+
+.account-name
+{
+    margin-right: 5px;
+}
+
+.fi
+{
+    padding-top: 5px;
+}
